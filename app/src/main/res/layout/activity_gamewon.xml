@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorThird"
+        tools:context=".Gamewon">
+
+
+    <Button
+            android:text="QUIT GAME"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/quitBtn2" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.988" android:textColor="#0D47A1" android:textSize="30sp"/>
+    <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp" app:srcCompat="@drawable/yellow"
+            android:id="@+id/imageView8" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.945"
+            app:layout_constraintVertical_bias="0.538"/>
+    <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp" app:srcCompat="@drawable/yellow"
+            android:id="@+id/imageView7" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintVertical_bias="0.538"/>
+    <ImageView
+            android:layout_width="436dp"
+            android:layout_height="0dp" app:srcCompat="@drawable/connectthreelogo"
+            android:id="@+id/imageView9"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+    <!--android:onClick="AddButtonClicked"-->
+    <!--android:onClick="DeleteButtonClicked"-->
+    <Button
+            android:text="Return To Main Menu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/mainGameBtn2"
+            android:textColor="#004AAD" android:textSize="30sp"
+            tools:ignore="InvalidId"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintVertical_bias="0.856"/>
+    <Button
+            android:text="SUBMIT HIGHSCORE!"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitHighScoreBtn" app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintVertical_bias="0.725"
+            app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent"
+            android:textColor="#0D47A1" android:textSize="30sp" app:layout_constraintHorizontal_bias="0.0"/>
+    <TextView
+            android:text="You Won!!!"
+            android:layout_width="336dp"
+            android:layout_height="89dp"
+            android:id="@+id/textView" android:textColor="@color/colorSecondary"
+            android:textAlignment="center" android:textSize="50sp" app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintBottom_toBottomOf="@+id/mainGameBtn2" app:layout_constraintVertical_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.493" android:layout_marginTop="152dp" android:background="#000000"/>
+    <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp" app:srcCompat="@drawable/yellow"
+            android:id="@+id/imageView6" app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@+id/imageView9"
+            app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.054"
+            app:layout_constraintVertical_bias="0.538"/>
+</androidx.constraintlayout.widget.ConstraintLayout>
